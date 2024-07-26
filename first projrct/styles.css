@@ -1,0 +1,292 @@
+@import url(http://awebfont.ir/css?id=1116);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::selection {
+  color: rgb(255, 255, 255);
+  background: rgb(204, 0, 255);
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.rightnav {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 0 2%;
+  flex-basis: 5%;
+  justify-content: flex-start;
+}
+.rightnav:hover > .rightnavlist {
+  display: block;
+  text-align: center;
+  list-style-type: none;
+  text-align: center;
+  flex-basis: 15%;
+  padding: 5px;
+  height: 100%;
+}
+
+.rightnavlist {
+  display: none;
+  text-align: center;
+  list-style-type: none;
+  text-align: center;
+  flex-basis: 15%;
+  padding: 5px;
+
+  margin: 20% 0;
+}
+.rightnavlist a {
+  text-decoration: none;
+  color: #f8ecff;
+}
+.rightnavlistitm {
+  font-size: 15px;
+  margin: 20% 1%;
+  background: rgb(250, 128, 244);
+  border-radius: 5px;
+}
+body {
+  height: 1123;
+  font-family: "B yekan";
+
+  background: #f8ecff;
+  background: linear-gradient(180deg, white 20%, white 35%, #f8ecff, #d689e7);
+}
+
+.container {
+  /* border: 2px solid rgb(237, 195, 243); */
+  margin: 0 auto 0 8%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  flex-basis: 85%;
+}
+.nav {
+  display: flex;
+  flex-basis: 100%;
+}
+.navright {
+  display: flex;
+  flex-basis: 70%;
+}
+.navright i {
+  margin: 5% 3.5% 5% 0;
+  font-size: 70px;
+  flex-basis: 20%;
+  color: #340041;
+}
+.navright a {
+  color: #8a2be2;
+  text-decoration: none;
+}
+.menulist {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0 30px 0 0;
+  flex-basis: 80%;
+  justify-content: flex-start;
+}
+.list_item {
+  background-color: rgb(227, 225, 228);
+  border-radius: 15px;
+  margin: 0 1.5%;
+  padding: 2% 3%;
+}
+.navleft {
+  background-color: #340041;
+  border-radius: 0 5px 5px 0;
+  flex-basis: 39%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 20px auto 20px;
+}
+.navleft form {
+  flex-basis: 90%;
+}
+.navleft button {
+  padding: 2%;
+  margin: 2% 2%;
+  border: 0;
+  border-radius: 15px;
+  background-color: rgb(227, 225, 228);
+}
+.navleft button[value=" aboute us"] {
+  padding: 2%;
+  margin: 2% 20%;
+}
+
+.navleft button:first-child {
+  padding: 5% 10%;
+  margin: 1%;
+  background-color: rgb(227, 183, 248);
+}
+.headerbottom {
+  margin-top: 8%;
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-between;
+}
+.hbr {
+  padding: 0.9%;
+  flex-basis: 50%;
+  height: 70%;
+  margin: 0 auto;
+}
+.hbr p {
+  margin: 0 0 10% 0;
+  text-align: justify;
+  flex-shrink: 2;
+  font-size: 20px;
+  line-height: 35px;
+  flex-basis: 100%;
+}
+.hbr h3 {
+  font-size: 100%;
+}
+.hbr h1 {
+  margin: 3%;
+  font-size: 130%;
+}
+.hbl {
+  display: flex;
+  justify-content: flex-end;
+
+  flex-basis: 40%;
+  margin: 0 auto;
+}
+.hbl img {
+  flex-shrink: 2;
+  flex-basis: 55%;
+  margin: 0 auto;
+  height: 70%;
+  background-size: 100%;
+  border-radius: 10px;
+}
+.option {
+  margin: 100px 0 0;
+  display: flex;
+}
+.optionitms {
+  border: 2px solid rgb(237, 195, 243);
+  border-radius: 15px;
+  padding: 0.5%;
+  margin: 2%;
+  position: relative;
+  text-align: justify;
+}
+
+.optionitms p {
+  position: relative;
+  font-size: 30%rem;
+  font-weight: bold;
+  width: 19%;
+  display: inline;
+}
+.optionitms h3 {
+  position: absolute;
+  border: 2px solid rgb(237, 195, 243);
+  background-color: rgb(237, 195, 243);
+  border-radius: 15px;
+  margin-block-start: -2em;
+  margin-block-end: 0;
+  margin-inline-start: -0.25em;
+  margin-inline-end: 5px;
+  padding: 1%;
+  text-align: center;
+}
+.intro {
+  margin: 3%;
+}
+
+.itm {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  align-items: flex-start;
+  margin: 0.5% auto;
+  border: 2px solid rgb(237, 195, 243);
+  border-radius: 30px;
+}
+.itml {
+  display: flex;
+  flex-basis: 50%;
+  margin: 5% 2%;
+}
+.itml img {
+  width: 100%;
+  height: 90%;
+  border-radius: 20%;
+  margin: 100px 20px 100px;
+  overflow: hidden;
+}
+.itmr {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  flex-basis: 30%;
+  padding: 1%;
+  margin: 20% auto;
+}
+.itmr p {
+  text-align: justify;
+}
+
+.itmr h2 {
+  margin: 0 0 35px 0;
+  border: 2px solid rgb(237, 195, 243);
+  background-color: rgb(237, 195, 243);
+  border-radius: 30px;
+  text-align: center;
+}
+.itmr h2:hover {
+  border: 2px solid rgb(164, 131, 255);
+  background-color: rgb(164, 131, 255);
+  padding: 35px;
+}
+.intro .itm:nth-child(odd) {
+  flex-flow: row-reverse wrap;
+  font-size: 30%rem;
+}
+.intro .itm:nth-child(odd) h2 {
+  background-color: #f39cc7;
+  border: 0;
+  font-size: 30%rem;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  flex-basis: 1000px;
+  background-color: #ffceffaf;
+  border-radius: 10px 10px 0 0;
+}
+.icons {
+  justify-content: space-between;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  flex-basis: 90%;
+  padding: 2%;
+}
+.icons a {
+  text-decoration: none;
+}
+.icons a i {
+  font-size: 7rem;
+  margin-inline: 30px;
+}
+.fb {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  flex-basis: 100%;
+  padding: 2%;
+}
